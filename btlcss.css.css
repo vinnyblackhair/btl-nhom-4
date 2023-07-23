@@ -1,0 +1,373 @@
+body{
+    
+    background-color: rgb(12, 11, 11);
+    margin: 0;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+ a{
+    text-decoration: none;
+ }   
+
+header{
+    background-image: url('https://image.shutterstock.com/image-vector/black-background-topographic-map-topography-260nw-1642205167.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 10px;
+    background-size: cover;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    
+} 
+
+.navbar-left{ 
+    align-items: center;  
+    gap: 10px;
+    display: flex;
+}
+.navbar-left-item{
+    
+    padding: 10px 10px 10px 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.navbar-left-item:hover{
+    background-color: yellow;
+    color: black;
+    font-weight: 900;
+    border-radius: 10px;
+}
+select{
+    border:0px solid black;
+    background-image: url('https://image.shutterstock.com/image-vector/black-background-topographic-map-topography-260nw-1642205167.jpg');
+    margin-left: 50px;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    
+}
+option{
+    background-image: url('https://image.shutterstock.com/image-vector/black-background-topographic-map-topography-260nw-1642205167.jpg');
+    color: black;
+}
+select:hover{
+    
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.navbar-right{  
+    margin-right: 10px; 
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    margin-right: 50px;
+}
+.navbar-right-item{
+    
+    padding: 10px 10px 10px 10px;
+    
+    cursor: pointer;
+    font-weight: 600;
+}
+.navbar-right-item:hover{
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: 900;
+}
+#logo{
+    height: 50px;
+    max-height: max-content;
+}
+#lower-fee{
+    text-transform: capitalize;
+    font-weight: 900;
+    color: black;
+    padding: 2px 2px 2px 2px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 8px;
+}
+#chongame{
+    font-family: 'Gemunu Libre', sans-serif;
+    max-width: 150px;
+    font-size: 20px;
+    font-weight: 800;
+    height: 50px;
+    background-color:  white;
+}
+#chongame:hover{
+    background-color: blanchedalmond;
+}
+
+
+
+/* phan2 */
+.middle{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-left: 10px;
+    
+    background-image: url('photo/rebranded-hero-artwork.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin-bottom: 40px;
+}
+
+
+.middle-p1{
+    padding-left: 200px;
+   color:white;
+   font-size: 30px;
+   font-weight: 400;
+}
+
+.middle-p2{
+    color:white;
+    font-size: 80px;
+    max-width: 800px;
+    padding-left: 200px;
+    
+}
+
+
+.sbb-tong{
+    margin-top: 20px;
+    padding-left: 200px;
+    display: flex;
+}
+.sbb{
+    text-transform: uppercase;
+    font-family: 'Gemunu Libre', sans-serif;
+    border: 1px solid white;
+    max-width: 500px;
+    font-size: 30px;
+    border-radius: 4px;
+    padding: 0 10px 5px 10px;
+    color: white;
+    margin-left: 20px;
+}
+.sbb:hover{
+    opacity: 60%;
+}
+#sell-skins{
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: 600;
+}
+
+
+/* phan3 */
+
+
+.ads{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    background-color: rgb(175, 231, 91);
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+/* phan4 */
+
+#sell-instanly{
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+.tieu-de{
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 950px ;
+    margin: 0 auto;
+}
+
+/* gianhang  */
+.gianhang-1{
+    gap: 50px;
+    padding-left: 20px;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.gianhang-1 img{
+    
+    background-image: url('https://media.istockphoto.com/photos/the-black-and-silver-are-light-gray-with-white-the-gradient-is-the-picture-id1351875033?b=1&k=20&m=1351875033&s=170667a&w=0&h=WSfWAEmawjNuLWlaAr1ZKxURXxjpWkbL2amw77mDysw=');
+    width: 100%;
+    height: 200px;
+}
+.gianhang-1-item{
+    text-transform: capitalize;
+    font-size: 20px;
+    height: 100%;
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    
+    
+}
+.gianhang-1-item button{
+    margin-top: 15px;
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+    font-family: 'Gemunu Libre', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+.gianhang-1-item button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+/* tieude-2 */
+
+
+.tieude-2{
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px ;
+    margin: 0 auto;
+    color: white;
+}
+
+
+/* gianhang2 */
+.gianhang-2{
+    padding-left: 20px;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    gap: 15px;
+}
+.gianhang-2-item{
+    text-transform: capitalize;
+    font-size: 20px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.add-button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: gray;
+
+}
+.add-button:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+.gianhang-2-item img{
+    background-image: url('https://media.istockphoto.com/photos/the-black-and-silver-are-light-gray-with-white-the-gradient-is-the-picture-id1351875033?b=1&k=20&m=1351875033&s=170667a&w=0&h=WSfWAEmawjNuLWlaAr1ZKxURXxjpWkbL2amw77mDysw=');
+    width: 100%;
+    height: 150px;
+    
+}
+
+/* gioithieu */
+h4{
+    color: white;
+}
+.gioithieu{
+    line-height: 20px;
+    color:rgba(199, 193, 193, 0.76);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+.gioithieu-2{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.gioithieu-3{
+    gap: 30px;
+    display: flex;
+}
+
+
+/* thongtin */
+
+footer{
+   display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.cotdau{
+    text-transform: capitalize;
+    padding-left: 80px;
+    line-height: 50px;
+    padding-top: 50px;
+    font-size:20px;
+    gap: 70px;
+    display: flex;
+    height:400px;
+    flex-wrap: wrap;
+}
+.cotdau:hover{
+    cursor: pointer;
+}
+.ft-phai{
+    padding-top: 20px;
+    padding-right: 80px;
+    gap:40px;
+    display: flex;
+    align-self: center;
+}
+#chot{
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0px;
+    background-color: yellow;
+    color:black;
+    padding-right: 10px;
+    border: 1px solid black;
+    
+}
